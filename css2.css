@@ -1,0 +1,50 @@
+body {
+  background: #dcdcdc;
+  font-family: "Roboto" sans-serif;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.text-muted {
+  color: #777777;
+}
+
+.calendar-left-side-day-of-week,
+.current-day-events {
+  position: relative;
+  color: white;
+}
+.calendar-left-side-day,
+.calendar-left-side-day-of-week,
+.current-day-events,
+.add-event-day-field-btn {
+  color: white;
+}
+
+.calendar {
+  background: white;
+  width: 840px;
+  height: 490px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.right-side,
+.left-side {
+  padding: 30px;
+  height: 100%;
+}
+
+.left-side {
+  width: 320px;
+  background: #ec364f;
+  float: left;
+}
+
+.right-side {
+  width: 400px;
+  float: right;
+}
